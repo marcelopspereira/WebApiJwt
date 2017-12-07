@@ -1,0 +1,15 @@
+{
+  "name": "webapijwt",
+  "description": "Asp.NET Core 2.0 WebApi JWT Authentication with Identity & MySQL",
+  "repository": "https://github.com/marcelopspereira/WebApiJwt",
+  "keywords": [ "webapi", "core" ],
+  "stack": "heroku-16",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/dotnet-buildpack"
+    },
+    {
+      "url": "https://github.com/marcelopspereira/dotnet-buildpack"
+    }
+  ]
+}
