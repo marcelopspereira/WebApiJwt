@@ -81,7 +81,7 @@ namespace WebApiJwt
             app.UseMvc();
 
             // ===== Create tables ======
-            dbContext.Database.EnsureCreated();
+          //  dbContext.Database.EnsureCreated();
         }
     }
 }

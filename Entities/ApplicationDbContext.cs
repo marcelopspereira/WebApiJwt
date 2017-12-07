@@ -16,11 +16,12 @@ namespace WebApiJwt.Entities
 
         private static string GetConnectionString()
         {
-            const string databaseName = "webapijwt";
-            const string databaseUser = "root";
-            const string databasePass = "";
+            const string databaseServer = "192.168.30.23";
+            const string databaseName = "mpsfree";//"webapijwt";
+            const string databaseUser = "mps_free";
+            const string databasePass = "medeve1$";
 
-            return $"Server=localhost;" +
+            return $"Server={databaseServer};" +
                    $"database={databaseName};" +
                    $"uid={databaseUser};" +
                    $"pwd={databasePass};" +
